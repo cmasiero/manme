@@ -1,0 +1,28 @@
+{
+  "name": "manme",
+  "version": "1.0.0",
+  "description": "manage your own info",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "manmetest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmasiero/manme.git"
+  },
+  "keywords": [
+    "personale",
+    "file",
+    "manager"
+  ],
+  "author": "Cristiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmasiero/manme/issues"
+  },
+  "homepage": "https://github.com/cmasiero/manme#readme",
+  "dependencies": {
+    "electron": "^4.0.3"
+  }
+}
