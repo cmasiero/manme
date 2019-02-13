@@ -1,0 +1,40 @@
+[
+    {
+        "name": "name 1",
+        "note": "note 1",
+        "type": "file",
+        "path": ["fileA","fileB"],
+        "tag": [
+            "linux",
+            "bash",
+            "info"
+        ]
+    },
+    {
+        "name": "name 2",
+        "note": "note 2",
+        "type": "file",
+        "path": ["fileC","fileD"],
+        "tag": [
+            "consoft",
+            "tim",
+            "debug"
+        ]
+    },
+    {
+        "name": "name 3",
+        "note": "note 3",
+        "type": "edit",
+        "tag": [
+            "mtb"
+        ]
+    },
+    {
+        "name": "name 4",
+        "note": "note 4",
+        "type": "edit",
+        "tag": [
+            "bdc"
+        ]
+    }
+]

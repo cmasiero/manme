@@ -1,0 +1,32 @@
+{
+ 
+    "mocha_test": {
+        "config_id": "mocha_test",
+        "dburl": "mongodb://localhost:27017/",
+        "dbname": "manme_mocha",
+        "mongoDataFolder": "C:/mydata/workspace/vscode/electronApp/manme/mongodbData",
+        "file_repository": "./test/file-repository/",
+        "file_repository_source": "./test/file-repository-source/"
+    },
+    "development": {
+        "config_id": "development",
+        "dburl": "mongodb://localhost:27017/",
+        "dbname": "manme_dev"
+    },
+    "testing": {
+        "config_id": "testing",
+        "dburl": "mongodb://localhost:27017/",
+        "dbname": "manme_test"
+    },
+    "staging": {
+        "config_id": "staging",
+        "dburl": "mongodb://localhost:27017/",
+        "dbname": "manme_stage"
+    },
+    "production": {
+        "config_id": "production",
+        "dburl": "mongodb://localhost:27017/",
+        "dbname": "manme"
+    }
+
+}

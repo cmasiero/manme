@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "manmetest"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,11 @@
   },
   "homepage": "https://github.com/cmasiero/manme#readme",
   "dependencies": {
-    "electron": "^4.0.3"
+    "electron": "^4.0.3",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "spectron": "^5.0.0"
   }
 }
